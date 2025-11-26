@@ -49,7 +49,7 @@ Rectangle {
         ProgressBar {
             id: progressBar
             visible: !loadingScreen.showGreeting
-            width: 320
+            width: Math.max(Math.min(parent.width * 0.7, 420), 280)
             height: 12
             anchors.horizontalCenter: parent.horizontalCenter
             from: 0
@@ -106,7 +106,7 @@ Rectangle {
     }
 
     Timer {
-        interval: 100
+        interval: 2500
         running: true
         repeat: false
         onTriggered: {

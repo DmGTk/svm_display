@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 376,
+                            "durationMicroseconds": 277,
                             "functionName": "width",
                             "line": 6,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 98,
                             "functionName": "height",
                             "line": 7,
                             "message": ""
@@ -24,15 +24,23 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 82,
                             "functionName": "fill",
                             "line": 14,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 409,
+                            "functionName": "spacing",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 118,
                             "functionName": "horizontalCenter",
                             "line": 18,
                             "message": ""
@@ -40,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 139,
+                            "durationMicroseconds": 106,
                             "functionName": "verticalCenter",
                             "line": 19,
                             "message": ""
@@ -48,15 +56,39 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 115,
                             "functionName": "horizontalCenter",
                             "line": 23,
                             "message": ""
                         },
                         {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 331,
+                            "functionName": "pixelSize",
+                            "line": 26,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 322,
+                            "functionName": "width",
+                            "line": 32,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 313,
+                            "functionName": "height",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 79,
                             "functionName": "color",
                             "line": 37,
                             "message": "Cannot access value for name isRunning"
@@ -64,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 42,
                             "functionName": "text",
                             "line": 41,
                             "message": "Cannot access value for name isRunning"
@@ -72,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 40,
                             "functionName": "color",
                             "line": 44,
                             "message": "Cannot access value for name isRunning"
@@ -80,15 +112,23 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 99,
+                            "durationMicroseconds": 86,
                             "functionName": "centerIn",
                             "line": 40,
                             "message": ""
                         },
                         {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 329,
+                            "functionName": "pixelSize",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 242,
+                            "durationMicroseconds": 170,
                             "functionName": "onClicked",
                             "line": 50,
                             "message": "Cannot access value for name isRunning"
@@ -96,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 83,
                             "functionName": "fill",
                             "line": 49,
                             "message": ""

@@ -73,13 +73,13 @@ Rectangle {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.margins: 32
-        spacing: 28
+        anchors.margins: Math.min(width, height) * 0.04
+        spacing: 20
 
         RowLayout {
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignHCenter
-            spacing: 10
+            spacing: 8
             Text {
                 text: "SVM1"
                 font.pixelSize: 22
@@ -100,7 +100,7 @@ Rectangle {
         RowLayout {
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignHCenter
-            spacing: 32
+            spacing: 16
 
             Column {
                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -109,9 +109,9 @@ Rectangle {
 
                 Rectangle {
                     id: statusCircle
-                    width: 180
-                    height: 180
-                    radius: 90
+                    width: Math.min(180, workingMode.width * 0.25)
+                    height: width
+                    radius: width / 2
                     color: statusColor()
 
                     SequentialAnimation on scale {
@@ -139,13 +139,13 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                Layout.preferredWidth: 540
-                spacing: 14
+                Layout.preferredWidth: Math.min(540, workingMode.width * 0.7)
+                spacing: 12
 
                 Rectangle {
                     id: tempCard
                     Layout.fillWidth: true
-                    Layout.preferredHeight: 80
+                    Layout.preferredHeight: 72
                     color: "#000000"
                     border.width: 3
                     property color barColor: "#00FF00"
@@ -158,7 +158,7 @@ Rectangle {
                         Text {
                             text: "TEMPERATURE"
                             font.family: "monospace"
-                            font.pixelSize: 16
+                            font.pixelSize: 15
                             color: tempCard.barColor
                             font.bold: true
                         }
@@ -166,7 +166,7 @@ Rectangle {
                         Text {
                             text: temperature.toFixed(1) + " C"
                             font.family: "monospace"
-                            font.pixelSize: 18
+                            font.pixelSize: 17
                             color: tempCard.barColor
                             font.bold: true
                         }
@@ -176,7 +176,7 @@ Rectangle {
                 Rectangle {
                     id: vibCard
                     Layout.fillWidth: true
-                    Layout.preferredHeight: 80
+                    Layout.preferredHeight: 72
                     color: "#000000"
                     border.width: 3
                     property color barColor: "#00FF00"
@@ -189,7 +189,7 @@ Rectangle {
                         Text {
                             text: "VIBRATION"
                             font.family: "monospace"
-                            font.pixelSize: 16
+                            font.pixelSize: 15
                             color: vibCard.barColor
                             font.bold: true
                         }
@@ -197,7 +197,7 @@ Rectangle {
                         Text {
                             text: vibration.toFixed(2) + " mm/s"
                             font.family: "monospace"
-                            font.pixelSize: 18
+                            font.pixelSize: 17
                             color: vibCard.barColor
                             font.bold: true
                         }
@@ -207,7 +207,7 @@ Rectangle {
                 Rectangle {
                     id: voltCard
                     Layout.fillWidth: true
-                    Layout.preferredHeight: 80
+                    Layout.preferredHeight: 72
                     color: "#000000"
                     border.width: 3
                     property color barColor: "#00FF00"
@@ -220,7 +220,7 @@ Rectangle {
                         Text {
                             text: "POWER VOLTAGE"
                             font.family: "monospace"
-                            font.pixelSize: 16
+                            font.pixelSize: 15
                             color: voltCard.barColor
                             font.bold: true
                         }
@@ -228,7 +228,7 @@ Rectangle {
                         Text {
                             text: voltage.toFixed(0) + " V"
                             font.family: "monospace"
-                            font.pixelSize: 18
+                            font.pixelSize: 17
                             color: voltCard.barColor
                             font.bold: true
                         }
@@ -239,18 +239,18 @@ Rectangle {
 
         RowLayout {
             Layout.fillWidth: true
-            spacing: 14
+            spacing: 10
 
             Rectangle {
                 Layout.fillWidth: true
-                height: 70
+                height: 64
                 color: "#000000"
                 border.width: 3
                 border.color: "#FF007A"
                 Text {
                     anchors.centerIn: parent
                     text: "STOP"
-                    font.pixelSize: 16
+                    font.pixelSize: 15
                     font.family: "monospace"
                     color: "#FF007A"
                     font.bold: true
@@ -267,14 +267,14 @@ Rectangle {
 
             Rectangle {
                 Layout.fillWidth: true
-                height: 70
+                height: 64
                 color: "#000000"
                 border.width: 3
                 border.color: "#FF00FF"
                 Text {
                     anchors.centerIn: parent
                     text: "CHANGE MODE"
-                    font.pixelSize: 16
+                    font.pixelSize: 15
                     font.family: "monospace"
                     color: "#FF00FF"
                     font.bold: true
@@ -293,14 +293,14 @@ Rectangle {
 
             Rectangle {
                 Layout.fillWidth: true
-                height: 70
+                height: 64
                 color: "#000000"
                 border.width: 3
                 border.color: "#00FFFF"
                 Text {
                     anchors.centerIn: parent
                     text: "VIEW LOG"
-                    font.pixelSize: 16
+                    font.pixelSize: 15
                     font.family: "monospace"
                     color: "#00FFFF"
                     font.bold: true

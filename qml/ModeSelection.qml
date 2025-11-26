@@ -12,20 +12,21 @@ Rectangle {
 
     Column {
         anchors.centerIn: parent
-        spacing: 26
+        spacing: Math.max(16, Math.min(height * 0.04, 28))
+        anchors.margins: Math.max(12, Math.min(width, height) * 0.03)
 
         Text {
             anchors.horizontalCenter: parent.horizontalCenter
             text: "Select Mode"
             font.family: "monospace"
-            font.pixelSize: 24
+            font.pixelSize: Math.max(20, Math.min(height * 0.05, 28))
             color: "#00FFFF"
             font.bold: true
         }
 
         Rectangle {
-            width: 520
-            height: 100
+            width: Math.max(220, Math.min(parent.width * 0.85, 520))
+            height: Math.max(84, Math.min(parent.height * 0.18, 110))
             color: "transparent"
             radius: 4
             border.width: 3
@@ -35,7 +36,7 @@ Rectangle {
                 anchors.centerIn: parent
                 text: "OPERATOR MODE"
                 font.family: "monospace"
-                font.pixelSize: 18
+                font.pixelSize: Math.max(16, Math.min(parent.height * 0.18 * 0.22, 22))
                 color: "#FF00FF"
                 font.bold: true
             }
@@ -51,8 +52,8 @@ Rectangle {
         }
 
         Rectangle {
-            width: 520
-            height: 100
+            width: Math.max(220, Math.min(parent.width * 0.85, 520))
+            height: Math.max(84, Math.min(parent.height * 0.18, 110))
             color: "transparent"
             radius: 4
             border.width: 3
@@ -62,7 +63,7 @@ Rectangle {
                 anchors.centerIn: parent
                 text: "ADMINISTRATOR MODE"
                 font.family: "monospace"
-                font.pixelSize: 18
+                font.pixelSize: Math.max(16, Math.min(parent.height * 0.18 * 0.22, 22))
                 color: "#00FFFF"
                 font.bold: true
             }
