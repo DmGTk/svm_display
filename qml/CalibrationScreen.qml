@@ -4,8 +4,7 @@ import QtQuick.Controls 2.15
 
 Rectangle {
     id: calibrationScreen
-    width: Screen.width
-    height: Screen.height
+    anchors.fill: parent
     color: "#000000"
 
     property int progress: 0
@@ -15,7 +14,6 @@ Rectangle {
 
     Column {
         anchors.centerIn: parent
-        anchors.horizontalCenter: parent.horizontalCenter
         spacing: 18
 
         Text {
@@ -28,7 +26,7 @@ Rectangle {
 
         ProgressBar {
             id: calibrationProgressBar
-            width: 320
+            width: Math.max(Math.min(parent.width * 0.7, 420), 280)
             height: 12
             anchors.horizontalCenter: parent.horizontalCenter
             from: 0
@@ -56,7 +54,7 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             Text {
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: calibrationScreen.isComplete ? "? Success" : ""
+                text: calibrationScreen.isComplete ? "✔ Success" : ""
                 font.pixelSize: 18
                 font.family: "monospace"
                 color: "#00FF00"

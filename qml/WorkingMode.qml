@@ -5,8 +5,7 @@ import QtQuick.Window 2.15
 
 Rectangle {
     id: workingMode
-    width: Screen.width
-    height: Screen.height
+    anchors.fill: parent
     color: "#000000"
 
     property string mode: "operator"
@@ -73,7 +72,7 @@ Rectangle {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.margins: Math.min(width, height) * 0.04
+        anchors.margins: Math.min(workingMode.width, workingMode.height) * 0.04
         spacing: 20
 
         RowLayout {

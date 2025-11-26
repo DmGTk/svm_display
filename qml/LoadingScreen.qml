@@ -4,8 +4,7 @@ import QtQuick.Window 2.15
 
 Rectangle {
     id: loadingScreen
-    width: Screen.width
-    height: Screen.height
+    anchors.fill: parent
     color: "#000000"
 
     property var appWindow: null
@@ -84,7 +83,7 @@ Rectangle {
 
     Timer {
         id: loadTimer
-        interval: 1000
+        interval: 10
         running: false
         repeat: true
         onTriggered: {

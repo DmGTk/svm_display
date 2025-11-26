@@ -3,8 +3,7 @@ import QtQuick.Controls 2.15
 import QtQuick.Window 2.15
 
 Rectangle {
-    width: Screen.width
-    height: Screen.height
+    anchors.fill: parent
     color: "#000000"
 
     property var stackView: null
@@ -12,8 +11,8 @@ Rectangle {
 
     Column {
         anchors.centerIn: parent
-        spacing: Math.max(16, Math.min(height * 0.04, 28))
-        anchors.margins: Math.max(12, Math.min(width, height) * 0.03)
+        spacing: Math.max(16, Math.min((parent ? parent.height : height) * 0.04, 28))
+        anchors.margins: Math.max(12, Math.min(parent ? parent.width : width, parent ? parent.height : height) * 0.03)
 
         Text {
             anchors.horizontalCenter: parent.horizontalCenter
