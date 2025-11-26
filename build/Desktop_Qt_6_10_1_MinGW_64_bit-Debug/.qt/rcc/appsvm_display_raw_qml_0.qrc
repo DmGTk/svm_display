@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/svm_display/">
+    <file alias="Main.qml">C:/Qt/MyProjects/svm_display/Main.qml</file>
+    <file alias="qml/LoadingScreen.qml">C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml</file>
+    <file alias="qml/CalibrationScreen.qml">C:/Qt/MyProjects/svm_display/qml/CalibrationScreen.qml</file>
+    <file alias="qml/MainMenu.qml">C:/Qt/MyProjects/svm_display/qml/MainMenu.qml</file>
+    <file alias="qml/ModeSelection.qml">C:/Qt/MyProjects/svm_display/qml/ModeSelection.qml</file>
+    <file alias="qml/WorkingMode.qml">C:/Qt/MyProjects/svm_display/qml/WorkingMode.qml</file>
+    <file alias="qml/LogViewer.qml">C:/Qt/MyProjects/svm_display/qml/LogViewer.qml</file>
+  </qresource>
+</RCC>
+

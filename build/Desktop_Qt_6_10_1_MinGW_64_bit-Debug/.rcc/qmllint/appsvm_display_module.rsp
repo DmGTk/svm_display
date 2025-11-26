@@ -1,0 +1,12 @@
+-I
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug
+-I
+C:/Qt/6.10.1/mingw_64/qml
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_svm_display.qrc
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appsvm_display_raw_qml_0.qrc
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appsvm_display_raw_qml_0_extra_qmldirs.qrc
+--module
+svm_display

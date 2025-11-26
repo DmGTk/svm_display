@@ -1,0 +1,12 @@
+module svm_display
+typeinfo appsvm_display.qmltypes
+prefer :/qt/qml/svm_display/
+Main 1.0 Main.qml
+LoadingScreen 1.0 qml/LoadingScreen.qml
+CalibrationScreen 1.0 qml/CalibrationScreen.qml
+MainMenu 1.0 qml/MainMenu.qml
+ModeSelection 1.0 qml/ModeSelection.qml
+WorkingMode 1.0 qml/WorkingMode.qml
+LogViewer 1.0 qml/LogViewer.qml
+depends QtQuick
+

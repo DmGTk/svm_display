@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appsvm_display_FILE C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appsvm_display.exe)
+set(__QT_DEPLOY_TARGET_appsvm_display_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appsvm_display_RUNTIME_DLLS C:/Qt/6.10.1/mingw_64/bin/Qt6QuickControls2.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6QuickTemplates2.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6Network.dll;C:/Qt/6.10.1/mingw_64/bin/Qt6Core.dll)

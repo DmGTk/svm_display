@@ -1,0 +1,27 @@
+@startuml
+title СВМ-1 mini display – application flow (по TSX макету)
+
+[*] --> LoadingScreen
+LoadingScreen --> CalibrationScreen : завершена последовательность загрузки
+CalibrationScreen --> MainMenu : калибровка завершена
+MainMenu --> ModeSelection : нажата "Старт"
+MainMenu --> MainMenu : нажата "Стоп"
+ModeSelection --> WorkingMode : выбран режим (операторский / административный)
+WorkingMode --> MainMenu : "Стоп" или аварийный выход
+WorkingMode --> ModeSelection : "Сменить режим"
+
+state LoadingScreen {
+    [*] --> Приветствие
+    Приветствие --> ШагиЗагрузки : таймер
+    ШагиЗагрузки --> Завершено : все этапы пройдены
+}
+
+state WorkingMode {
+    [*] --> Норма
+    Норма --> Предупреждение : любые датчики в warning
+    Предупреждение --> Тревога : любые датчики в error
+    Тревога --> Предупреждение : ошибки устранены
+    Предупреждение --> Норма : параметры в пределах нормы
+}
+
+@enduml
