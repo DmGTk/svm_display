@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 252,
+                            "durationMicroseconds": 369,
                             "functionName": "width",
                             "line": 7,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 142,
                             "functionName": "height",
                             "line": 8,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 339,
+                            "durationMicroseconds": 504,
                             "functionName": "loadingSteps",
                             "line": 12,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 113,
                             "functionName": "centerIn",
                             "line": 28,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 250,
                             "functionName": "text",
                             "line": 33,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 148,
                             "functionName": "horizontalCenter",
                             "line": 32,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 245,
                             "functionName": "pixelSize",
                             "line": 34,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 105,
                             "functionName": "visible",
                             "line": 42,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 107,
+                            "durationMicroseconds": 157,
                             "functionName": "horizontalCenter",
                             "line": 41,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 48,
                             "functionName": "fill",
                             "line": 59,
                             "message": "Cannot access value for name progressBar"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 63,
                             "functionName": "height",
                             "line": 68,
                             "message": "Cannot access value for name progressBar"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 76,
                             "functionName": "width",
                             "line": 69,
                             "message": "Cannot access value for name progressBar"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 40,
                             "functionName": "left",
                             "line": 66,
                             "message": "Cannot access value for name progressBar"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 41,
-                            "durationMicroseconds": 25,
+                            "durationMicroseconds": 36,
                             "functionName": "verticalCenter",
                             "line": 67,
                             "message": "Cannot access value for name progressBar"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 161,
                             "functionName": "visible",
                             "line": 77,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 252,
+                            "durationMicroseconds": 369,
                             "functionName": "text",
                             "line": 78,
                             "message": "Cannot generate efficient code for LoadElement with non-list base type (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant (adjusted to QJSValue, stored as QJSValue)"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 107,
+                            "durationMicroseconds": 153,
                             "functionName": "horizontalCenter",
                             "line": 76,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 421,
+                            "durationMicroseconds": 664,
                             "functionName": "onTriggered",
                             "line": 90,
                             "message": "Cannot load property length from (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant."
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 112,
                             "functionName": "onTriggered",
                             "line": 112,
                             "message": "Cannot load property length from (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant."

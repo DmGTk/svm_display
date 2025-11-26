@@ -1,0 +1,15 @@
+-rootPath
+C:/Qt/MyProjects/svm_display
+-cmake-output
+-output-file
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/qml_imports/appsvm_display_conf.cmake
+-importPath
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/svm_display
+-importPath
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release
+-importPath
+C:/Qt/6.10.1/mingw_64/qml
+-qrcFiles
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/qmake_svm_display.qrc
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/appsvm_display_raw_qml_0.qrc
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/appsvm_display_raw_qml_0_extra_qmldirs.qrc

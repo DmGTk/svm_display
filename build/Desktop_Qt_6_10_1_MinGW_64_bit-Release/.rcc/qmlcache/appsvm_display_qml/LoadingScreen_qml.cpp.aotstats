@@ -1,0 +1,191 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 352,
+                            "functionName": "width",
+                            "line": 7,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 120,
+                            "functionName": "height",
+                            "line": 8,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 666,
+                            "functionName": "loadingSteps",
+                            "line": 12,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 129,
+                            "functionName": "centerIn",
+                            "line": 28,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 483,
+                            "functionName": "text",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 153,
+                            "functionName": "horizontalCenter",
+                            "line": 32,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 639,
+                            "functionName": "pixelSize",
+                            "line": 34,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 103,
+                            "functionName": "visible",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 158,
+                            "functionName": "horizontalCenter",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 51,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 57,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 54,
+                            "message": "Could not find property \"horizontalCenter\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 53,
+                            "functionName": "fill",
+                            "line": 59,
+                            "message": "Cannot access value for name progressBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 68,
+                            "functionName": "height",
+                            "line": 68,
+                            "message": "Cannot access value for name progressBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 79,
+                            "functionName": "width",
+                            "line": 69,
+                            "message": "Cannot access value for name progressBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 44,
+                            "functionName": "left",
+                            "line": 66,
+                            "message": "Cannot access value for name progressBar"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 42,
+                            "functionName": "verticalCenter",
+                            "line": 67,
+                            "message": "Cannot access value for name progressBar"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 169,
+                            "functionName": "visible",
+                            "line": 77,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 341,
+                            "functionName": "text",
+                            "line": 78,
+                            "message": "Cannot generate efficient code for LoadElement with non-list base type (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant (adjusted to QJSValue, stored as QJSValue)"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 120,
+                            "functionName": "horizontalCenter",
+                            "line": 76,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 508,
+                            "functionName": "onTriggered",
+                            "line": 90,
+                            "message": "Cannot load property length from (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 85,
+                            "functionName": "onTriggered",
+                            "line": 112,
+                            "message": "Cannot load property length from (component in C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml)::loadingSteps with type QVariant."
+                        }
+                    ],
+                    "filePath": "C:/Qt/MyProjects/svm_display/qml/LoadingScreen.qml"
+                }
+            ],
+            "moduleId": "svm_display(appsvm_display)"
+        }
+    ]
+}

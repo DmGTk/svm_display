@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 273,
+                            "durationMicroseconds": 315,
                             "functionName": "width",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 94,
                             "functionName": "height",
                             "line": 9,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 1243,
+                            "durationMicroseconds": 1385,
                             "functionName": "logEntries",
                             "line": 20,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 78,
                             "functionName": "statusColor",
                             "line": 33,
                             "message": "function without return type annotation returns conversion to QString. This may prevent proper compilation to Cpp."
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 91,
                             "functionName": "systemStatus",
                             "line": 56,
                             "message": "function without return type annotation returns QString. This may prevent proper compilation to Cpp."
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 208,
+                            "durationMicroseconds": 231,
                             "functionName": "onTriggered",
                             "line": 67,
                             "message": "Cannot access value for name temperature"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 90,
                             "functionName": "fill",
                             "line": 75,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 89,
                             "functionName": "alignment",
                             "line": 81,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 53,
                             "functionName": "text",
                             "line": 92,
                             "message": "Cannot access value for name mode"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 78,
                             "functionName": "alignment",
                             "line": 102,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 125,
                             "functionName": "width",
                             "line": 108,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 154,
                             "functionName": "alignment",
                             "line": 106,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 209,
+                            "durationMicroseconds": 236,
                             "functionName": "color",
                             "line": 115,
                             "message": "method statusColor cannot be resolved."
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 77,
                             "functionName": "loops",
                             "line": 118,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 92,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 82,
                             "functionName": "type",
                             "line": 119,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 92,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 88,
                             "functionName": "type",
                             "line": 120,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 72,
                             "functionName": "loops",
                             "line": 123,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 562,
+                            "durationMicroseconds": 636,
                             "functionName": "text",
                             "line": 131,
                             "message": "method systemStatus cannot be resolved."
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 241,
+                            "durationMicroseconds": 269,
                             "functionName": "color",
                             "line": 135,
                             "message": "method statusColor cannot be resolved."
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 99,
+                            "durationMicroseconds": 106,
                             "functionName": "horizontalCenter",
                             "line": 130,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 73,
                             "functionName": "color",
                             "line": 152,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 63,
                             "functionName": "fill",
                             "line": 155,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 99,
                             "functionName": "color",
                             "line": 162,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 48,
+                            "durationMicroseconds": 57,
                             "functionName": "text",
                             "line": 167,
                             "message": "Cannot access value for name temperature"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 99,
                             "functionName": "color",
                             "line": 170,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 69,
                             "functionName": "color",
                             "line": 183,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 61,
                             "functionName": "fill",
                             "line": 186,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 144,
                             "functionName": "color",
                             "line": 193,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 53,
                             "functionName": "text",
                             "line": 198,
                             "message": "Cannot access value for name vibration"
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 96,
                             "functionName": "color",
                             "line": 201,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 69,
                             "functionName": "color",
                             "line": 214,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 58,
                             "functionName": "fill",
                             "line": 217,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 107,
                             "functionName": "color",
                             "line": 224,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 52,
                             "functionName": "text",
                             "line": 229,
                             "message": "Cannot access value for name voltage"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 100,
                             "functionName": "color",
                             "line": 232,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 60,
                             "functionName": "centerIn",
                             "line": 251,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 82,
                             "functionName": "onClicked",
                             "line": 260,
                             "message": "Cannot access value for name appWindow"
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 68,
                             "functionName": "fill",
                             "line": 259,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 58,
                             "functionName": "centerIn",
                             "line": 275,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 140,
                             "functionName": "onClicked",
                             "line": 284,
                             "message": "Cannot access value for name appWindow"
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 100,
                             "functionName": "fill",
                             "line": 283,
                             "message": ""
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 57,
                             "functionName": "centerIn",
                             "line": 301,
                             "message": ""
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 144,
                             "functionName": "onClicked",
                             "line": 310,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 58,
                             "functionName": "fill",
                             "line": 309,
                             "message": ""
@@ -384,201 +384,201 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 45,
                             "functionName": "color",
-                            "line": 321,
+                            "line": 320,
                             "message": "Cannot access value for name showLog"
                         },
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 19,
+                            "durationMicroseconds": 22,
                             "functionName": "visible",
-                            "line": 322,
+                            "line": 321,
                             "message": "Cannot access value for name showLog"
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 59,
                             "functionName": "fill",
-                            "line": 320,
+                            "line": 319,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 56,
                             "functionName": "centerIn",
-                            "line": 332,
+                            "line": 331,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 58,
                             "functionName": "fill",
-                            "line": 335,
+                            "line": 334,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 82,
                             "functionName": "contentHeight",
-                            "line": 354,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 88,
-                            "functionName": "left",
-                            "line": 352,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 80,
-                            "functionName": "right",
                             "line": 353,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 95,
+                            "functionName": "left",
+                            "line": 351,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 88,
+                            "functionName": "right",
+                            "line": 352,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 79,
                             "functionName": "width",
-                            "line": 360,
+                            "line": 359,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 36,
                             "functionName": "model",
-                            "line": 364,
+                            "line": 363,
                             "message": "Cannot access value for name logEntries"
                         },
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 91,
                             "functionName": "width",
-                            "line": 366,
+                            "line": 365,
                             "message": "Cannot access value for name logCol"
                         },
                         {
                             "codegenResult": 2,
                             "column": 54,
-                            "durationMicroseconds": 27,
+                            "durationMicroseconds": 217,
                             "functionName": "lvl",
-                            "line": 369,
-                            "message": "Cannot access value for name model"
+                            "line": 368,
+                            "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "levelColor",
-                            "line": 371,
+                            "line": 370,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 263,
                             "functionName": "text",
-                            "line": 378,
-                            "message": "Cannot access value for name model"
+                            "line": 377,
+                            "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 271,
                             "functionName": "text",
-                            "line": 384,
-                            "message": "Cannot access value for name model"
+                            "line": 383,
+                            "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 301,
+                            "durationMicroseconds": 283,
                             "functionName": "color",
-                            "line": 385,
+                            "line": 384,
                             "message": "Cannot access value for name lvl"
                         },
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 257,
                             "functionName": "text",
-                            "line": 390,
-                            "message": "Cannot access value for name model"
+                            "line": 389,
+                            "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 79,
                             "functionName": "wrapMode",
-                            "line": 394,
+                            "line": 393,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 95,
                             "functionName": "horizontalCenter",
-                            "line": 403,
+                            "line": 402,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 59,
                             "functionName": "centerIn",
-                            "line": 413,
+                            "line": 412,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 126,
+                            "durationMicroseconds": 135,
                             "functionName": "onClicked",
-                            "line": 422,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 53,
-                            "functionName": "fill",
                             "line": 421,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 58,
+                            "functionName": "fill",
+                            "line": 420,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 61,
                             "functionName": "centerIn",
-                            "line": 436,
+                            "line": 435,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 110,
                             "functionName": "onClicked",
-                            "line": 445,
+                            "line": 444,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 56,
                             "functionName": "fill",
-                            "line": 444,
+                            "line": 443,
                             "message": ""
                         }
                     ],

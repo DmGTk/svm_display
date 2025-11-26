@@ -1,0 +1,111 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 376,
+                            "functionName": "width",
+                            "line": 6,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 150,
+                            "functionName": "height",
+                            "line": 7,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 101,
+                            "functionName": "fill",
+                            "line": 14,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 163,
+                            "functionName": "horizontalCenter",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 139,
+                            "functionName": "verticalCenter",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 155,
+                            "functionName": "horizontalCenter",
+                            "line": 23,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 101,
+                            "functionName": "color",
+                            "line": 37,
+                            "message": "Cannot access value for name isRunning"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 54,
+                            "functionName": "text",
+                            "line": 41,
+                            "message": "Cannot access value for name isRunning"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 54,
+                            "functionName": "color",
+                            "line": 44,
+                            "message": "Cannot access value for name isRunning"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 99,
+                            "functionName": "centerIn",
+                            "line": 40,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 242,
+                            "functionName": "onClicked",
+                            "line": 50,
+                            "message": "Cannot access value for name isRunning"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 102,
+                            "functionName": "fill",
+                            "line": 49,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "C:/Qt/MyProjects/svm_display/qml/MainMenu.qml"
+                }
+            ],
+            "moduleId": "svm_display(appsvm_display)"
+        }
+    ]
+}

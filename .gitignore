@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.ninja_log
+*.ninja_deps
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+
+# Qt/Qt Creator
+*.pro.user
+*.user
+*.user.*
+*.qmlc
+*.jsc
+*.qmldir
+
+# Logs and temp
+*.log
+*.tmp
+
+# IDE settings
+.idea/
+.vscode/

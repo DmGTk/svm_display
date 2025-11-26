@@ -18,16 +18,16 @@ Rectangle {
     property real voltage: 221
     property bool showLog: false
     property var logEntries: [
-        { timestamp: "2025-10-28 14:34:01", level: "info", message: "Temperature: 23.1°C, Status: NORMAL" },
-        { timestamp: "2025-10-28 14:34:22", level: "warn", message: "Temperature warning: 46.2°C" },
-        { timestamp: "2025-10-28 14:34:45", level: "error", message: "Critical temperature: 56.8°C" },
-        { timestamp: "2025-10-28 14:35:10", level: "info", message: "Temperature normalized: 44.3°C" },
-        { timestamp: "2025-10-28 14:35:32", level: "info", message: "All parameters within normal range" },
-        { timestamp: "2025-10-28 14:36:00", level: "info", message: "System health check completed" },
-        { timestamp: "2025-10-28 14:36:18", level: "warn", message: "Voltage fluctuation detected: 208V" },
-        { timestamp: "2025-10-28 14:36:45", level: "info", message: "Voltage stabilized: 220V" },
-        { timestamp: "2025-10-28 14:37:12", level: "info", message: "Vibration: 0.32 mm/s, Status: NORMAL" },
-        { timestamp: "2025-10-28 14:37:40", level: "info", message: "Temperature: 24.7°C, Status: NORMAL" }
+        { "timestamp": "2025-10-28 14:32:15", "level": "info", "message": "System started in ADMINISTRATOR MODE" },
+        { "timestamp": "2025-10-28 14:32:16", "level": "info", "message": "All sensors initialized successfully" },
+        { "timestamp": "2025-10-28 14:32:45", "level": "info", "message": "Temperature: 22.5C, Status: NORMAL" },
+        { "timestamp": "2025-10-28 14:33:12", "level": "warning", "message": "Vibration level increased: 0.85 mm/s" },
+        { "timestamp": "2025-10-28 14:33:30", "level": "info", "message": "Voltage: 218V, Status: NORMAL" },
+        { "timestamp": "2025-10-28 14:34:01", "level": "info", "message": "Temperature: 23.1C, Status: NORMAL" },
+        { "timestamp": "2025-10-28 14:34:22", "level": "warning", "message": "Temperature warning: 46.2C" },
+        { "timestamp": "2025-10-28 14:34:45", "level": "error", "message": "Critical temperature: 56.8C" },
+        { "timestamp": "2025-10-28 14:35:10", "level": "info", "message": "Temperature normalized: 44.3C" },
+        { "timestamp": "2025-10-28 14:35:32", "level": "info", "message": "All parameters within normal range" }
     ]
 
     function statusColor() {
@@ -54,10 +54,10 @@ Rectangle {
     }
 
     function systemStatus() {
-        var statuses = [temperatureStatus(temperature), vibrationStatus(vibration), voltageStatus(voltage)]
-        if (statuses.indexOf("error") !== -1) return "error"
-        if (statuses.indexOf("warning") !== -1) return "warning"
-        return "normal"
+        var statuses = [temperatureStatus(temperature), vibrationStatus(vibration), voltageStatus(voltage)];
+        if (statuses.indexOf("error") !== -1) return "error";
+        if (statuses.indexOf("warning") !== -1) return "warning";
+        return "normal";
     }
 
     Timer {
@@ -65,9 +65,9 @@ Rectangle {
         running: true
         repeat: true
         onTriggered: {
-            temperature = Math.max(20, Math.min(70, temperature + (Math.random() - 0.5) * 2))
-            vibration = Math.max(0, Math.min(2, vibration + (Math.random() - 0.5) * 0.2))
-            voltage = Math.max(200, Math.min(240, voltage + (Math.random() - 0.5) * 5))
+            temperature = Math.max(20, Math.min(70, temperature + (Math.random() - 0.5) * 2));
+            vibration = Math.max(0, Math.min(2, vibration + (Math.random() - 0.5) * 0.2));
+            voltage = Math.max(200, Math.min(240, voltage + (Math.random() - 0.5) * 5));
         }
     }
 
@@ -164,7 +164,7 @@ Rectangle {
                         }
                         Item { Layout.fillWidth: true }
                         Text {
-                            text: temperature.toFixed(1) + " °C"
+                            text: temperature.toFixed(1) + " C"
                             font.family: "monospace"
                             font.pixelSize: 18
                             color: tempCard.barColor
@@ -315,7 +315,6 @@ Rectangle {
         }
     }
 
-    // Log viewer overlay
     Rectangle {
         anchors.fill: parent
         color: showLog ? "#80000000" : "transparent"
@@ -339,7 +338,7 @@ Rectangle {
                 Row {
                     spacing: 8
                     Text {
-                        text: "\uD83D\uDCC4 SYSTEM LOG"
+                        text: "SYSTEM LOG"
                         font.family: "monospace"
                         font.pixelSize: 18
                         color: "#00FFFF"
@@ -366,28 +365,28 @@ Rectangle {
                                 width: logCol.width
                                 spacing: 6
 
-                                property string lvl: model.level
+                                property string lvl: modelData.level
 
                                 function levelColor(lvl) {
-                                    if (lvl === "error") return "#FF073A"
-                                    if (lvl === "warn") return "#FFA500"
-                                    return "#00FFFF"
+                                    if (lvl === "error") return "#FF073A";
+                                    if (lvl === "warning") return "#FFA500";
+                                    return "#00FFFF";
                                 }
 
                                 Text {
-                                    text: model.timestamp
+                                    text: modelData.timestamp
                                     color: "#00FF00"
                                     font.family: "monospace"
                                     font.pixelSize: 12
                                 }
                                 Text {
-                                    text: "[" + model.level.toUpperCase() + "]"
+                                    text: "[" + modelData.level.toUpperCase() + "]"
                                     color: levelColor(lvl)
                                     font.family: "monospace"
                                     font.pixelSize: 12
                                 }
                                 Text {
-                                    text: model.message
+                                    text: modelData.message
                                     color: "#CCCCCC"
                                     font.family: "monospace"
                                     font.pixelSize: 12
@@ -420,7 +419,7 @@ Rectangle {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                                console.log("Save to USB clicked (stub)")
+                                console.log("Save to USB clicked (stub)");
                             }
                         }
                     }
@@ -443,7 +442,7 @@ Rectangle {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                                workingMode.showLog = false
+                                workingMode.showLog = false;
                             }
                         }
                     }
@@ -452,3 +451,5 @@ Rectangle {
         }
     }
 }
+
+

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 250,
+                            "durationMicroseconds": 317,
                             "functionName": "width",
                             "line": 6,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 107,
                             "functionName": "height",
                             "line": 7,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 125,
                             "functionName": "centerIn",
                             "line": 14,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 176,
                             "functionName": "horizontalCenter",
                             "line": 18,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 101,
                             "functionName": "centerIn",
                             "line": 35,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 150,
                             "functionName": "onClicked",
                             "line": 45,
                             "message": "Cannot access value for name appWindow"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 102,
                             "functionName": "fill",
                             "line": 44,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 77,
                             "functionName": "centerIn",
                             "line": 62,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 99,
                             "functionName": "onClicked",
                             "line": 72,
                             "message": "Cannot access value for name appWindow"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 119,
                             "functionName": "fill",
                             "line": 71,
                             "message": ""

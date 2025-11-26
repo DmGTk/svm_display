@@ -1,0 +1,12 @@
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/qmake_svm_display.qrc
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/appsvm_display_raw_qml_0.qrc
+--resource
+C:/Qt/MyProjects/svm_display/build/Desktop_Qt_6_10_1_MinGW_64_bit-Release/.qt/rcc/appsvm_display_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/svm_display/Main.qml
+/qt/qml/svm_display/qml/LoadingScreen.qml
+/qt/qml/svm_display/qml/CalibrationScreen.qml
+/qt/qml/svm_display/qml/MainMenu.qml
+/qt/qml/svm_display/qml/ModeSelection.qml
+/qt/qml/svm_display/qml/WorkingMode.qml

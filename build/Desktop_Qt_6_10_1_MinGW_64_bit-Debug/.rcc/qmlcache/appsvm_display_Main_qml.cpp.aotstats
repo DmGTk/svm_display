@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 219,
+                            "durationMicroseconds": 285,
                             "functionName": "targetWidth",
                             "line": 12,
                             "message": "Cannot access value for name primaryScreenWidth"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 136,
                             "functionName": "targetHeight",
                             "line": 13,
                             "message": "Cannot access value for name primaryScreenHeight"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 99,
                             "functionName": "showCalibration",
                             "line": 28,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 105,
                             "functionName": "showMainMenu",
                             "line": 32,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 80,
                             "functionName": "showModeSelection",
                             "line": 36,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 147,
                             "functionName": "stopWorking",
                             "line": 46,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 116,
+                            "durationMicroseconds": 151,
                             "functionName": "onCompleted",
                             "line": 21,
                             "message": "Cannot access value for name visibility"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 20,
+                            "durationMicroseconds": 27,
                             "functionName": "stackView",
                             "line": 55,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 19,
                             "functionName": "appWindow",
                             "line": 56,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 21,
                             "functionName": "stackView",
                             "line": 63,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 25,
                             "functionName": "appWindow",
                             "line": 64,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 46,
                             "functionName": "stackView",
                             "line": 71,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 13,
+                            "durationMicroseconds": 26,
                             "functionName": "appWindow",
                             "line": 72,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 18,
+                            "durationMicroseconds": 32,
                             "functionName": "isRunning",
                             "line": 73,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 29,
                             "functionName": "stackView",
                             "line": 80,
                             "message": "Cannot retrieve a non-object type by ID: stackView"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 14,
+                            "durationMicroseconds": 20,
                             "functionName": "appWindow",
                             "line": 81,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
@@ -168,23 +168,23 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 17,
+                            "durationMicroseconds": 0,
                             "functionName": "stackView",
                             "line": 88,
-                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                            "message": "Could not find property \"stackView\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 0,
                             "functionName": "appWindow",
                             "line": 89,
-                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                            "message": "Could not find property \"appWindow\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 18,
+                            "durationMicroseconds": 33,
                             "functionName": "mode",
                             "line": 90,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
