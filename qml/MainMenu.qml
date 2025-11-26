@@ -3,7 +3,9 @@ import QtQuick.Controls 2.15
 import QtQuick.Window 2.15
 
 Item {
-    anchors.fill: parent
+    anchors.fill: undefined    // avoid StackView anchor conflicts
+    width: parent ? parent.width : 800
+    height: parent ? parent.height : 480
 
     property var stackView: null
     property var appWindow: null

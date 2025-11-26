@@ -4,7 +4,9 @@ import QtQuick.Controls 2.15
 
 Rectangle {
     id: calibrationScreen
-    anchors.fill: parent
+    anchors.fill: undefined    // avoid StackView anchor conflicts
+    width: parent ? parent.width : 800
+    height: parent ? parent.height : 480
     color: "#000000"
 
     property int progress: 0

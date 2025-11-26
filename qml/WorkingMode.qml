@@ -5,7 +5,9 @@ import QtQuick.Window 2.15
 
 Rectangle {
     id: workingMode
-    anchors.fill: parent
+    anchors.fill: undefined    // avoid StackView anchor conflicts
+    width: parent ? parent.width : 800
+    height: parent ? parent.height : 480
     color: "#000000"
 
     property string mode: "operator"
@@ -450,5 +452,4 @@ Rectangle {
         }
     }
 }
-
 
